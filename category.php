@@ -31,8 +31,7 @@
 	        <div class="row">
 	        	<div class="col-sm-9">
 		            <h1 class="page-header"><?php echo $cat['name']; ?></h1>
-		       		<?php
-		       			
+		       		<?php		
 		       			$conn = $pdo->open();
 
 		       			try{
